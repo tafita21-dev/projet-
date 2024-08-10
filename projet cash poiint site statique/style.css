@@ -1,0 +1,104 @@
+body{
+    background-image: url(conception-communication-sociale-grise-low-poly-tech_88343-2832.jpg);
+}
+
+header{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+img{
+    width: 5%;
+    height: 1%;
+}
+
+.bouttonseconnecter{
+    background-color: aqua;
+}
+
+nav{
+
+    background-color: rgb(160, 97, 134);
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item{
+    background-color: white;
+    color: rgb(245, 160, 48);
+}
+
+main{
+    width: 100%;
+    border-radius: 30px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lista{
+    background-color: brown;
+    width: 95px;
+    height: 24px;
+}
+
+#depot , #retrait , #transfert , #historique , #menu{
+    margin-bottom: 15px;
+}
+
+p, h2{
+    text-align: center;
+}
+
+h1, h2{
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+.solde initiale{
+    background: rgb(255, 255, 255 , -1);
+    width: 30%;
+    height: 330px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255 , 255 , -1);
+}
+
+.solde finale{
+    background-color: rgb(255, 255 , 255 , );
+    width: 30%;
+    height: 330px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+
+.especes finale{
+    background-color: rgb(209, 176, 115);
+    width: 30%;
+    border-radius: 20px;
+    float: right;
+}
+
+.boutton{
+    border-radius: 10px;
+    box-shadow: 16px 20px 7px -4px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgba(252,70,107,1);
+}
+
+.listfooter{
+    color: black;
+}
